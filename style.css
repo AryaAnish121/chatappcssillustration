@@ -268,4 +268,17 @@ body{
     .illustration{
         height: 60vh;
     }
+    .illustration-2{
+        display: none;
+    }
+    .info{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .illustration{
+        width: 80%;
+        height: 80vh;
+    }
 }
